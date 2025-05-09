@@ -13,7 +13,7 @@ To enable GitHub page publishing, edit the Page settings for the repo and publis
 
 في هذا التدريب سوف <!-- provide a description of what they'll do and why it;s important -->
 
-يجب أن يستغرق هذا التدريب حوالي **XX** دقيقة لإكماله. <!-- update with estimated duration -->
+يجب أن يستغرق هذا التدريب حوالي <b>XX</b> دقيقة لإكماله. <!-- update with estimated duration -->
 
 ## قبل أن تبدأ
 
@@ -33,32 +33,58 @@ If self-paced /ILT-specific setup steps are required, include them in the Learn 
 ## مهمة <!-- Change to an appropriate task title with an imperative verb phrase (e.g. "Do something") -->
 
 أولًا، عليك أن...
-
-1. الخطوة 1
-1. تتضمن هذه الخطوة مثالًا لـ `inline code formatting`، والذي يتم استخدامه عندما يحتاج المُتعلم إلى كتابة شيء ما (أي شيء، وليس مجرد تعليمة برمجية) لأنه ينشئ رابط [T] في بيئة Skillable المستضافة.
-1. إذا كنت تريد من المتعلم فتح موقع ويب، فقم بتضمين رابط (حتى يتمكن من فتحه بالنقر فوق صفحة HTML على GitHub) وعنوان URL بتنسيق تعليمة برمجية (حتى يتمكن من كتابته في متصفح VM المستضاف). على سبيل المثال، "افتح موقع الويب [Bing](https://www.bing.com) على `https://www.bing.com`".
-1. إذا كنت تريد من المتعلم تنزيل ملف (أو مجموعة من الملفات في ملف مضغوط)، فخزّن الملف في مجلد Allfiles في مخزن البيانات الخاصة هذا واستخدم عنوان URL **الخام** - مثل هذا: "تنزيل [اسم الملف](https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json) من `https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json`.
-1. بدلًا من ذلك، بالنسبة لجمهور المطورين، يمكنك أن تطلب منهم استنساخ مخزن البيانات الخاصة هذا إذا كان ذلك يبدو أكثر ملاءمة.
-1. إذا كنت بحاجة إلى تضمين كتلة تعليمات برمجية متعددة الأسطر، فضع مسافة بادئة لها لتتوافق مع المسافة البادئة للقائمة ذات التعداد النقطي:
-
-    ```python
+<ol dir='rtl'>
+<li>
+الخطوة 1
+</li>
+<li>
+1تضمن هذه الخطوة مثالًا لـ <code>inline code formatting</code>، والذي يتم استخدامه عندما يحتاج المُتعلم إلى كتابة شيء ما (أي شيء، وليس مجرد تعليمة برمجية) لأنه ينشئ رابط [T] في بيئة Skillable المستضافة.
+</li>
+<li>
+إذا كنت تريد من المتعلم فتح موقع ويب، فقم بتضمين رابط (حتى يتمكن من فتحه بالنقر فوق صفحة HTML على GitHub) وعنوان URL بتنسيق تعليمة برمجية (حتى يتمكن من كتابته في متصفح VM المستضاف). على سبيل المثال، "افتح موقع الويب <code>https://www.bing.com</code> على <a href="https://www.bing.com">[Bing]</a>".
+</li>
+<li>
+1ذا كنت تريد من المتعلم تنزيل ملف (أو مجموعة من الملفات في ملف مضغوط)، فخزّن الملف في مجلد Allfiles في مخزن البيانات الخاصة هذا واستخدم عنوان URL <b>الخام</b> - مثل هذا: "تنزيل <a href="https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json">[اسم الملف]</a> من <code>https://raw.githubusercontent.com/MicrosoftLearning/INF99X-SampleCourse/master/Allfiles/Labs/01/Starter/azuredeploy.json</code>.
+</li>
+<li>
+بدلًا من ذلك، بالنسبة لجمهور المطورين، يمكنك أن تطلب منهم استنساخ مخزن البيانات الخاصة هذا إذا كان ذلك يبدو أكثر ملاءمة.
+</li>
+<li>
+إذا كنت بحاجة إلى تضمين كتلة تعليمات برمجية متعددة الأسطر، فضع مسافة بادئة لها لتتوافق مع المسافة البادئة للقائمة ذات التعداد النقطي:
+<pre><code>    
     # This is an example of an
     # indented code block.
-    ```
+</code></pre>    
+</li>
+<li>
+إذا كنت بحاجة إلى تضمين لقطة شاشة، فغيّر حجمها إلى الحجم المناسب (لذلك فإن أي نص منسق "عادي" في لقطة شاشة جزئية يكون بنفس حجم هذا النص تقريبًا - حاول عمومًا إنشاء لقطات شاشة لنوافذ التطبيق الكاملة بحجم 800 × 600 بكسل (تقريبًا)). خزّن الصور في المجلد الفرعي <b>الوسائط</b> واستخدم Markdown لإضافتها إلى الصفحة (تذكر أن أسماء الملفات والمجلدات حساسة لحالة الأحرف). إذا كانت الصورة موجودة في قائمة، غيّر المسافة البادئة لها، مثل هذا:
+<p dir="rtl"><a href="https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives.ar-sa/blob/main/Instructions/Labs/Media/edge-copilot.png"><img src="https://github.com/MicrosoftLearning/MS-4008-Microsoft-365-Copilot-Interactive-Experience-for-Executives.ar-sa/blob/main/Instructions/Labs/Media/edge-copilot.png" alt="لقطة شاشة للتطبيق."> </a></p>
 
-1. إذا كنت بحاجة إلى تضمين لقطة شاشة، فغيّر حجمها إلى الحجم المناسب (لذلك فإن أي نص منسق "عادي" في لقطة شاشة جزئية يكون بنفس حجم هذا النص تقريبًا - حاول عمومًا إنشاء لقطات شاشة لنوافذ التطبيق الكاملة بحجم 800 × 600 بكسل (تقريبًا)). خزّن الصور في المجلد الفرعي **الوسائط** واستخدم Markdown لإضافتها إلى الصفحة (تذكر أن أسماء الملفات والمجلدات حساسة لحالة الأحرف). إذا كانت الصورة موجودة في قائمة، غيّر المسافة البادئة لها، مثل هذا:
+</li>
+<li>
 
-    ![لقطة شاشة للتطبيق.](./Media/edge-copilot.png) 
+1ذا كنت بحاجة إلى شرح سبب القيام بشيء ما بالطريقة التي يتم بها، أو تقديم سياق إضافي أو روابط للمعلومات، فاستخدم ملاحظة مثل هذه:
 
-1. إذا كنت بحاجة إلى شرح سبب القيام بشيء ما بالطريقة التي يتم بها، أو تقديم سياق إضافي أو روابط للمعلومات، فاستخدم ملاحظة مثل هذه:
+<blockquote>
+      <b>ملاحظة</b>: هذه ملاحظة.
+</blockquote>
 
-    > **ملاحظة**: هذه ملاحظة.
-
-1. كن مرنًا عند تقديم الإرشادات التي قد تختلف بين بيئة نشاط عملي ذاتية التعلم وتلك المستضافة. على سبيل المثال:
-    - "تسجيل الدخول باستخدام بيانات اعتماد Azure" (على افتراض وجود تعليمات خاصة بـ Learn لاستخدام اشتراك شخصي أو إنشاء نسخة تجريبية في صفحة تمرين Learn، وتعليمات خاصة بـ ILT لاستخدام بيانات اعتماد cloudslice المقدمة في ملف تعريف النشاط العملي Skillable)
-    - "حدد مجموعة موارد موجودة أو أنشئ مجموعة موارد جديدة" (على افتراض أنه إذا تم استخدام Skillable CS-R cloudslice، فقد قمت بتضمين ملاحظة في ملف تعريف النشاط العملي تخبر المتعلم بمجموعة الموارد التي يجب أن يستخدمها)
+</li>
+<li>
+كن مرنًا عند تقديم الإرشادات التي قد تختلف بين بيئة نشاط عملي ذاتية التعلم وتلك المستضافة. على سبيل المثال:
+  <ul dir='rtl'>
+<li>
+    "تسجيل الدخول باستخدام بيانات اعتماد Azure" (على افتراض وجود تعليمات خاصة بـ Learn لاستخدام اشتراك شخصي أو إنشاء نسخة تجريبية في صفحة تمرين Learn، وتعليمات خاصة بـ ILT لاستخدام بيانات اعتماد cloudslice المقدمة في ملف تعريف النشاط العملي Skillable)
+</li>
+<li>
+    "حدد مجموعة موارد موجودة أو أنشئ مجموعة موارد جديدة" (على افتراض أنه إذا تم استخدام Skillable CS-R cloudslice، فقد قمت بتضمين ملاحظة في ملف تعريف النشاط العملي تخبر المتعلم بمجموعة الموارد التي يجب أن يستخدمها)
     <!-- The key point is that this markdown file should be environment-agnostic - you need to provide explicit details of things that can vary OUTSIDE of this file (in the Learn exercise page or the Skillable lab profile instructions) -->
-1. وغيرها
+</li>
+</ul>
+
+<li>وغيرها
+</li>
+</ol>
 
 ## المهمة التالية
 
